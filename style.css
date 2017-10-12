@@ -1,0 +1,60 @@
+body {
+  background-color: #ccc;
+  margin: 0;
+  font-size: 20px;
+}
+header{
+  background-color: rgb(6,147,96);
+  margin: 0;
+  padding: 20px;
+}
+section{
+  background-color: #fff;
+  padding: 30px;
+}
+h1{
+  font-family: monospace, sans-serif,cursive;
+  text-decoration: underline;
+
+}
+h4{
+  font-family: sans-serif, monospace;
+  font-size: .9em;
+}
+.author{
+  text-indent: 10px;
+}
+p{
+  font-family: times,monospace;
+}
+aside{
+  padding: 10px;
+  border: 1px solid cornflowerblue;
+  border-radius: 10px;
+  background-color: rgb(234,255,105);
+  font-style: italic;
+  font-size: .6em;
+}
+aside:hover{
+  background-color: black;
+  color: white;
+}
+b{font-style: normal;}
+strong{font-style: normal;}
+footer{
+  padding: 5px 30px;
+  border-top: 2px solid black;
+  letter-spacing: 2px;
+}
+
+footer small{
+  float: right;
+  font-size: .6em;
+  word-spacing: 4px;
+
+}
+
+::selection{
+  background-color: rgb(89,201,208);
+  color: white;
+}
